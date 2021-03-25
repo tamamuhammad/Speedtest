@@ -1,0 +1,68 @@
+body {
+    background-color: darkslategray;
+    font-family: 'Helvetica';
+}
+
+.container {
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.card {
+    background-color: ghostwhite;
+    width: 50vh;
+    margin: 0 auto;
+    border-radius: 5px;
+    height: 25vh;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type=text] {
+    width: 192px;
+}
+
+.btn {
+    background-color: royalblue;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    color: ghostwhite;
+} 
+
+.alert {
+    text-align: center;
+    width: 50vh;
+    padding: 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.alert-danger {
+    background-color: firebrick;
+    color: white;
+}
+
+.alert-success {
+    background-color: seagreen;
+    color: white;
+}
